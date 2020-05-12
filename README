@@ -1,0 +1,38 @@
+Prerequisit:
+
+Install python 3.7.4
+
+pip3 install pytest
+pip3 intall pytest-html
+pip3 install selenium
+
+My Environment:
+
+tdoan@Trongs-Mac:~/Downloads$python3 --version
+Python 3.7.4
+
+tdoan@Trongs-Mac:~/Downloads$pip3 list | egrep 'pytest|selenium'
+pytest                                  5.2.3
+pytest-html                             2.1.1
+selenium                                3.141.0
+
+
+How to run:
+
+If download from Github: https://github.com/trongdoan6075/F5
+
+1. unzip F5-master.zip from any directory
+2. cd F5-master/tests
+3. Run by: pytest -s F5.py --html=report.html
+
+The html report will be under F5-master/tests/report.html. This report will tell which pass and fail. When fail, it will print out why it fails
+
+
+
+From F5.zip file
+
+1. unzip F5.zip from any directory
+2. cd F5/heroku/tests
+3. Run by: pytest -s F5.py --html=report.html
+
+The html report will be under F5-master/tests/report.html. This report will tell which pass and fail. When fail, it will print out why it fails
