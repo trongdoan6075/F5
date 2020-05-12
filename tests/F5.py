@@ -9,7 +9,7 @@ class takeHomeIterview(unittest.TestCase):
         print("Beginning test setup ... ")
         dir = os.getcwd()
         self.driver = webdriver.Firefox(executable_path=dir+"/geckodriver")      # Set up firefox driver (this can be modified to Chrome/IE/Safari/Headless/PhantomJS
-        self.wait = WebDriverWait(self.driver, 15)                               # Set the generic wait for element = 10 second max
+        self.wait = WebDriverWait(self.driver, 10)                               # Set the generic wait for element = 10 second max
         self.driver.get("https://the-internet.herokuapp.com/dynamic_content?with_content=static") # Calling the URL
 
 # Test 001
