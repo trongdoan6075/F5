@@ -21,18 +21,17 @@ How to run:
 
 If download from Github: https://github.com/trongdoan6075/F5
 
-1. unzip F5-master.zip from any directory
-2. cd F5-master/tests
+1. unzip orbitz.zip from any directory
+2. cd orbitz/tests
+3. Run by: pytest -s orbitz.py --html=report.html
+
+The html report will be under orbitz/tests/report.html. This report will tell which pass and fail. When fail, it will print out why it fails
+
+
+From orbitz.zip file
+
+1. unzip orbitz.zip from any directory
+2. cd orbitz/tests
 3. Run by: pytest -s F5.py --html=report.html
 
-The html report will be under F5-master/tests/report.html. This report will tell which pass and fail. When fail, it will print out why it fails
-
-
-
-From F5.zip file
-
-1. unzip F5.zip from any directory
-2. cd F5/heroku/tests
-3. Run by: pytest -s F5.py --html=report.html
-
-The html report will be under F5-master/tests/report.html. This report will tell which pass and fail. When fail, it will print out why it fails
+The html report will be under orbitz/tests/report.html. This report will tell which pass and fail. When fail, it will print out why it fails

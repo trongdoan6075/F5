@@ -242,8 +242,8 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <h1>F5.html</h1>
-    <p>Report generated on 12-May-2020 at 00:20:59 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <h1>report.html</h1>
+    <p>Report generated on 26-May-2020 at 22:44:17 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.4</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 15.90 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 65.21 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,20 +271,11 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">F5.py::takeHomeIterview::test_002</td>
-          <td class="col-duration">7.28</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;tests.F5.takeHomeIterview testMethod=test_002&gt;<br/><br/>    def test_002(self):<br/>        print(&quot;Running test 002&quot;)<br/>        list = []<br/>        #Get the src of the img that being shown on the page. Then assgin to a list<br/>        list.append(self.driver.find_element_by_xpath(ElementValue.first_avatar).get_attribute(&quot;src&quot;)) # Get first avatar&#x27;s src<br/>        list.append(self.driver.find_element_by_xpath(ElementValue.second_avatar).get_attribute(&quot;src&quot;)) # Get second avatar&#x27;s src<br/>        list.append(self.driver.find_element_by_xpath(ElementValue.third_avatar).get_attribute(&quot;src&quot;)) # Get third avatar&#x27;s src<br/>        # Print all avatar is showing on page: First check of the assignment<br/>        utilfunction.printAvatarName(list)<br/>        #Call checkPunisheddisplay or not function to see if Punisher was shown on the page. Passing in using a list from above&#x27;s collection<br/>&gt;       assert True == utilfunction.checkPunisherdisplay(list)<br/><span class="error">E       AssertionError: assert True == False</span><br/><span class="error">E        +  where False = &lt;function checkPunisherdisplay at 0x111355710&gt;([&#x27;https://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg&#x27;, &#x27;https://the-internet.h...ek-Profile-Avatar-2.jpg&#x27;, &#x27;https://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg&#x27;])</span><br/><span class="error">E        +    where &lt;function checkPunisherdisplay at 0x111355710&gt; = utilfunction.checkPunisherdisplay</span><br/><br/>F5.py:47: AssertionError<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">F5.py::takeHomeIterview::test_001</td>
-          <td class="col-duration">8.40</td>
+          <td class="col-name">orbitz.py::orbitz::test_001</td>
+          <td class="col-duration">65.09</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
